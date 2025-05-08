@@ -1,0 +1,24 @@
+{
+    "name": "code-complexity-analyzer-backend",
+    "version": "1.0.0",
+    "description": "Backend for Code Complexity Analyzer",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "esprima": "^4.0.1",
+        "express": "^4.18.2",
+        "java-parser": "^2.0.3",
+        "multer": "^1.4.5-lts.1",
+        "openai": "^4.20.1",
+        "python-shell": "^5.0.0",
+        "uuid": "^11.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
